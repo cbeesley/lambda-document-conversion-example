@@ -1,18 +1,22 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+*.iml
+terraform.tfstate
+terraform.tfstate.backup
+logs
+target
+.idea
+node_modules
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/.node_modules
+/.mvn
+/.terraform
+/RUNNING_PID
+*.swp
+*.swo
+*.iml
+*.js.map
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
